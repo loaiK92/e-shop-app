@@ -1,0 +1,56 @@
+.basket-page {
+  background: #f8f8f89c;
+}
+
+.basket-list {
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid #999;
+  margin: 2% auto;
+  padding-bottom: 1%;
+  position: relative;
+}
+
+.basket-list img {
+  width: 100px;
+  height: 100px;
+}
+
+.basket-list h2 {
+  width: 20%;
+}
+
+.basket-list p {
+  width: 50%;
+  padding-right: 2%;
+}
+
+.basket-list input {
+  width: 3%;
+}
+
+.basket-list .deleteBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25px;
+  height: 25px;
+  display: none;
+}
+.basket-list:hover > .deleteBtn {
+  display: block;
+  cursor: pointer;
+}
+
+.total-price {
+  width: 97%;
+  text-align: right;
+  font-size: 1.5em;
+  margin-bottom: 20%;
+}
+
+.total-price p span {
+  color: #b31b1b;
+}
